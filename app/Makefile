@@ -114,10 +114,12 @@ LINKFLAGS_eagle.app.v6 = 			\
 	-lpp 					\
 	-lnet80211 				\
 	-lwpa 					\
+	-lwpa2					\
 	-lmain 					\
 	-ljson 					\
 	-lsmartconfig 				\
 	-lssl 					\
+	-lcrypto				\
 	$(DEP_LIBS_eagle.app.v6) 		\
 	-Wl,--end-group 			\
 	-lm
